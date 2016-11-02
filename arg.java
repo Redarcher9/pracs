@@ -1,0 +1,1 @@
+class arg{	public static void main(String arg[])	{ int a,b,c;a=Integer.parseInt(arg[0]);b=Integer.parseInt(arg[1]);c=Integer.parseInt(arg[2]);	if(a > b && a > c)	{	System.out.println(arg[0]);	}	else if(b > c)	{	System.out.println(arg[1]);	}	else	{	System.out.println(arg[2]);	}	}}
